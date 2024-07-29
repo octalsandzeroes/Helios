@@ -124,130 +124,107 @@ main {
     padding: 25px 50px;
   }
   
-  #introductioncontainer {
+#introductioncontainer {
     padding: 20px;
-  }
+}
   
-  #introduction {
+#introduction {
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
-  .title {
+.title {
     width: 100%;
     text-align: center;
-  }
+}
   
-  #introduction p {
+#introduction p {
     flex: 1;
     margin-right: 20px;
-  }
-  
-  #introduction video {
+}
+
+#introduction video {
     flex: 0 0 400px;
     margin-top: 10px;
     border-style: inset;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     #introduction {
-      flex-direction: column;
+    flex-direction: column;
     }
-  
+
     #introduction p,
     #introduction video {
-      margin-right: 0;
+    margin-right: 0;
     }
-  }
-  
-  #problemsolutioncontainer {
+}
+
+#problemsolutioncontainer {
     padding: 20px;
-  }
-  
-  #problemsolution {
+}
+
+#problemsolution {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  #problemsolution p {
+}
+
+#problemsolution p {
     flex: 1;
     margin-right: 20px;
-  }
-  
-  #problemsolution video {
+}
+
+#problemsolution video {
     flex: 0 0 400px;
     margin-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
+    border-style: inset;
+}
+
+@media (max-width: 768px) {
     #problemsolution {
-      flex-direction: column;
+    flex-direction: column;
     }
-  
+
     #problemsolution p,
     #problemsolution video {
-      margin-right: 0;
+    margin-right: 0;
     }
-  }
-  
-  #contactcontainer {
+}
+
+#contactcontainer {
     padding: 20px;
-  }
-  
-  #contactus {
+}
+
+#contactus {
     text-align: center;
-  }
-  
-  #contactus ul {
+}
+
+#contactus ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  #contactus ul li {
+}
+
+#contactus ul li {
     margin: 5px 0;
-  }
-  
-  #contactus a {
+}
+
+#contactus a {
     color: #007BFF;
     text-decoration: none;
-  }
-  
-  #contactus a:hover {
-    text-decoration: underline;
-  }
-  
-    #livefeedcontainer {
-    padding: 20px;
-  }
-  
-  #livefeedcontainer section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    justify-items: center;
-  }
-  
-  #livefeedcontainer video {
-    width: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 768px) {
-    #livefeedcontainer section {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-    }
-  }  
+}
 
+#contactus a:hover {
+    text-decoration: underline;
+}
+
+.centervideos{
+    align-content: space-evenly;
+}
+
+.centertext{
+    text-align: center;
+}
 
 footer{
     padding: 25px;
-}
-
-
-
-a:link, a:visited { /* Sets the style for links */
-    color: #53dfff;
-    text-decoration: none;
 }
